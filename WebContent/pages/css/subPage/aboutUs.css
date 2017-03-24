@@ -1,0 +1,41 @@
+@IMPORT url("../common.css");
+
+
+/*	banner  */
+.banner_DIV{ height:330px; }
+.banner_DIV a{ width:100%; height:330px; background:url("../../images/aboutUs/banner.png") no-repeat center; display:inline-block; }
+/*	视频 	 */
+.video_DIV{ width:700px; margin:80px auto; }
+.video_DIV p{ color:#8394a6; font:20px/36px 'Microsoft YaHei'; text-align:center; margin-bottom:30px; }
+.video_DIV video{ width:684px; height:410px; margin:38 auto 0 auto; cursor:pointer; }
+/*	人物	  */
+.employee_DIV{ margin-top:80px; }
+.employee_DIV>div p{ width:520px; color:#8394a6; font:20px/38px 'Microsoft YaHei'; text-align:center; margin:0 auto; }
+.employee_DIV>div p:NTH-OF-TYPE(2){ margin-bottom:45px; }
+.employee_DIV>div ul{ height:400px; font-size:0px; position:relative; }
+.employee_DIV>div ul li{ width:335px; height:190px; display:inline-block; position:absolute; z-index:1;}
+.employee_DIV>div ul li:hover{ z-index:10; transform:scale(1.05); }
+.employee_DIV>div ul li a{ display:table-cell; text-align:center; vertical-align:middle; }
+.employee_DIV>div ul li a img{ max-width:335px; max-height:190px; }
+.employee_DIV>div ul li:NTH-OF-TYPE(1){  }
+.employee_DIV>div ul li:NTH-OF-TYPE(2){ left:330px; }
+.employee_DIV>div ul li:NTH-OF-TYPE(3){ left:665px;}
+.employee_DIV>div ul li:NTH-OF-TYPE(4){ top:190px; }
+.employee_DIV>div ul li:NTH-OF-TYPE(5){ top:190px; left:330px;}
+.employee_DIV>div ul li:NTH-OF-TYPE(6){ top:190px; left:665px;}
+/*	联系方式	  */
+.link_DIV{ margin:150px 0 84px 0;}
+.link_DIV>div{  }
+.link_DIV>div dl{ width:250px; text-align:center; }
+.link_DIV>div dl dt{ margin-bottom:28px; }
+.link_DIV>div dl dt i{ width:116px; height:116px; overflow:hidden; display:inline-block; }
+.link_DIV>div dl dt i img{ max-width:116px; max-height:116px; }
+.link_DIV>div dl dd{ max-width:250px; text-align:center; }
+.link_DIV>div dl dd span{ max-width:158px; font-size:14px; line-height:24px; color:#666; overflow:hidden; margin:0 auto; display:block; }
+/*	banner_bottom	  */
+.bottomBanner_DIV{ height:330px; }
+.bottomBanner_DIV a{ width:100%; height:217px; background:url("../../images/aboutUs/banner_bottom.png") no-repeat center; display:block; }
+
+
+
+

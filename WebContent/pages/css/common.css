@@ -1,0 +1,44 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header div, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; }
+body{ font-family:"Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:24px; background:#fff;  color:#333; }
+table{ border-collapse:collapse; border-spacing:0; }
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; background: #fff; border: 0; }
+img{ border:none; vertical-align:middle; }
+ul,li{ list-style:none; }
+a{ text-decoration:none; color:#333; outline:none; }
+a:hover{ color:#e34829; }
+input:focus,textarea:focus{ outline:none; }
+h1,h2,h3,h4,h5{ font-weight:normal; }
+i,em{ font-style:normal; }
+
+.fl{ float:left; }
+.fr{ float:right; }
+.of{ overflow:hidden; }
+.clBoth{ clear:both; }
+.centerDIV{ width:1000px; min-width:1000px; margin:0 auto; }
+.tbCell{ display:table-cell; text-align:center; vertical-align:middle; }
+
+
+/*	头部	 */
+header{ min-width:1000px; font-size:0px; }
+header div:NTH-OF-TYPE(1) a{ line-height:90px; display:inline-block; }
+header div:NTH-OF-TYPE(2){ margin-right:19px; }
+header div:NTH-OF-TYPE(2) a{ font-size:14px; line-height:90px; padding:0px 26px; color:#444; display:inline-block; }
+header div:NTH-OF-TYPE(2) a:HOVER { background-color:#1ab4c3; color:#fff; }
+header div:NTH-OF-TYPE(2) a.on{ background-color:#1ab4c3; color:#fff; }
+
+
+/*	底部	 */
+footer{ width:100%; min-width:1000px; font-size:0px; line-height:0px;}
+footer iframe{ width:100%; height:160px; overflow:hidden; }
+
+
+/*	二维码显示区域	  */
+.linkSidebar_DIV{ width:40px; height:220px; position:fixed; bottom:200px; right:5px; z-index:99; }
+.linkSidebar_DIV ul li{ width:40px; height:40px; margin-bottom:5px; position:relative; cursor:pointer; }
+.linkSidebar_DIV ul li:NTH-OF-TYPE(1){ background:url("../images/sidebar_link/1.png") no-repeat 0px 0px; }
+.linkSidebar_DIV ul li:NTH-OF-TYPE(2){ background:url("../images/sidebar_link/2.png") no-repeat 0px 0px; }
+.linkSidebar_DIV ul li:NTH-OF-TYPE(3){ background:url("../images/sidebar_link/3.png") no-repeat 0px 0px; }
+.linkSidebar_DIV ul li:NTH-OF-TYPE(4){ background:url("../images/sidebar_link/4.png") no-repeat 0px 0px; }
+.linkSidebar_DIV ul li:NTH-OF-TYPE(5){ background:url("../images/sidebar_link/5.png") no-repeat 0px 0px; }
+.linkSidebar_DIV ul li i{ width:136px; height:130px; background:url("../images/sidebar_link/QRCode.png"); visibility:hidden; display:inline; position:absolute; right:42px; }
+/* .linkSidebar_DIV ul li:NTH-OF-TYPE(4)>i{ visibility:visible; }//这里仿hover效果*/

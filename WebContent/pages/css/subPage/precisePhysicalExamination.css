@@ -1,0 +1,76 @@
+@IMPORT url("../common.css");
+
+
+/*	banner  */
+.banner_DIV{ height:330px; }
+.banner_DIV a{ width:100%; height:330px; background:url("../../images/examination/banner.png") no-repeat center; display:inline-block; }
+
+
+/*	精密体检	  */
+.examination_DIV{ margin-top:80px; }
+.examination_DIV>h1{ color:#1ab4c3; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; }
+.examination_DIV>h3{ color:#c3c3c3; font-size:16px; line-height:16px; text-align:center; margin-bottom:20px; text-transform:uppercase; }
+.examination_DIV>p{ color:#666; font-size:14px; line-height:14px; margin-bottom:10px; text-align:center; }
+.examination_DIV>div{ margin:50px auto; }
+.examination_DIV dl{ width:280px; margin-right:80px; margin-bottom:50px; }
+.examination_DIV dl:NTH-OF-TYPE(3n){ margin-right:0px; }
+.examination_DIV dt a{ width:280px; height:152px; display:table-cell; text-align:center; vertical-align:middle; }
+.examination_DIV dt a img{ max-width:280px; max-height:152px; }
+.examination_DIV dd a{ display:inline-block; }
+.examination_DIV dd a:NTH-OF-TYPE(1){ color:#2e2e2e; font-size:18px; line-height:18px; margin:22px 0px 14px 0px; }
+.examination_DIV dd a:NTH-OF-TYPE(1):HOVER{ color:#2e2e2e; }
+.examination_DIV dd a:NTH-OF-TYPE(2){ height:70px; overflow:hidden; color:#666; font-size:12px; line-height:24px; text-align:left; margin-right:14px; }
+.examination_DIV dd a:NTH-OF-TYPE(2):HOVER{ color:#666; text-decoration:underline; }
+
+
+/*	体检流程  */
+.flow_DIV{ height:700px; margin-top:80px; background-color:#1ab4c3 }
+.flow_DIV>h1{ color:#fff; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; padding-top:60px; }
+.flow_DIV>h3{ color:#fff; font-size:16px; line-height:16px; text-align:center; margin-bottom:40px; text-transform:uppercase; }
+.flow_DIV>div{ width:875px; height:442px; margin:0 auto; background:url("../../images/examination/flow_line.png") no-repeat center; position:relative; }
+.flow_DIV>div dl{ width:100px; height:105px; position:absolute; transition: all 1s;}
+.flow_DIV>div dl dt{ width:80px; height:80px; margin:0 auto; background-color:#fff; border-radius:50%; overflow:hidden; cursor:pointer; }
+.flow_DIV>div dl dt i{ width:80px; height:80px; display:inline-block; }
+.flow_DIV>div dl:NTH-OF-TYPE(1){ left:0px;   top:0px; }
+.flow_DIV>div dl:NTH-OF-TYPE(2){ left:0px;   top:146px; }
+.flow_DIV>div dl:NTH-OF-TYPE(3){ left:230px; top:146px; }
+.flow_DIV>div dl:NTH-OF-TYPE(4){ left:470px; top:146px; }
+.flow_DIV>div dl:NTH-OF-TYPE(5){ left:690px; top:146px; }
+.flow_DIV>div dl:NTH-OF-TYPE(6){ left:690px; top:328px; }
+.flow_DIV>div dl:NTH-OF-TYPE(7){ left:470px; top:328px; }
+.flow_DIV>div dl:NTH-OF-TYPE(8){ left:230px; top:328px; }
+.flow_DIV>div dl:NTH-OF-TYPE(9){ left:0px;   top:328px; }
+.flow_DIV>div dl dt i{ transition: all 1s; }
+.flow_DIV>div dl:NTH-OF-TYPE(1) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat; }
+.flow_DIV>div dl:NTH-OF-TYPE(2) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat 0 -80px; }
+.flow_DIV>div dl:NTH-OF-TYPE(3) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat 0 -160px; }
+.flow_DIV>div dl:NTH-OF-TYPE(4) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat 0 -240px; }
+.flow_DIV>div dl:NTH-OF-TYPE(5) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat 0 -320px; }
+.flow_DIV>div dl:NTH-OF-TYPE(6) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat 0 -400px; }
+.flow_DIV>div dl:NTH-OF-TYPE(7) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat 0 -480px; }
+.flow_DIV>div dl:NTH-OF-TYPE(8) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat 0 -560px; }
+.flow_DIV>div dl:NTH-OF-TYPE(9) dt i{ background:url("../../images/examination/flow_icons.png") no-repeat 0 -640px; }
+.flow_DIV>div dl dd{ max-width:100px; font-size:14px; line-height:14px; text-align:center; color:#fff; margin-top:10px; overflow:hidden;  }
+
+
+/*	合作医院  */
+.hospital_DIV{ margin-top:80px; margin-bottom:140px; font-size:0px; }
+.hospital_DIV>h1{ color:#1ab4c3; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; }
+.hospital_DIV>h3{ color:#c3c3c3; font-size:16px; line-height:16px; text-align:center; margin-bottom:60px; text-transform:uppercase; }
+.hospital_DIV>div dl{ margin-bottom:81px; }
+.hospital_DIV>div dl dt{ margin-right:31px; }
+.hospital_DIV>div dl dt a{ width:280px; height:170px; }
+.hospital_DIV>div dl dt a img{ max-width:280px; max-height:170px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1){ width:396px; max-height:170px; margin-right:116px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) a{ font-size:16px; line-height:16px; color:#2e2e2e; margin-bottom:14px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) a:HOVER{ color:#1ab4c3; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) p:NTH-OF-TYPE(1){ max-height:65px; font-size:12px; overflow:hidden; color:#666; margin-bottom:29px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) p:NTH-OF-TYPE(2){ height:50px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) p:NTH-OF-TYPE(2) i{ width:50px; height:50px; border-radius:50%; margin-right:36px; display:inline-block; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) p:NTH-OF-TYPE(2) span{ font-size:14px; color:#2e2e2e; vertical-align:20px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2){ text-align:center; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2) p:NTH-OF-TYPE(1){ font-size:16px; line-height:16px; color:#1ab4c3; margin-top:31px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2) p:NTH-OF-TYPE(2){ font-size:14px; line-height:14px; color:#1ab4c3; margin-top:12px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2) a{ width:114px; height:32px; font-size:14px; line-height:32px; margin-top:18px; background-color:#1ab4c3; color:#fff; border-radius:2px; display:inline-block; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2) a:HOVER { background-color:#46bdc9; }
+

@@ -1,0 +1,93 @@
+﻿@IMPORT url("common.css");
+
+::-webkit-input-placeholder { color: #333;/* WebKit browsers */ } 
+:-moz-placeholder { color: #333;/* Mozilla Firefox 4 to 18 */ } 
+::-moz-placeholder { color: #333;/* Mozilla Firefox 19+ */ } 
+:-ms-input-placeholder { color: #333;/* Internet Explorer 10+ */ } 
+::-webkit-select-placeholder { color: #333;/* WebKit browsers */ } 
+:-ms-select-placeholder { color: #333;/* Internet Explorer 10+ */ } 
+
+
+/*	中部	  */
+.content_DIV{ min-width:1000px; }
+	/*	banner	  */
+#banner_ID {width:100%;height:585px;position:relative;overflow:hidden;background:#fff;}
+#banner_ID .bannerImg_UL{position:relative;width:100%; height:560px;}
+#banner_ID .bannerImg_UL li{position:absolute;width:100%;height:100%;}
+#banner_ID .bannerImg_UL li a{display:block;width:100%;height:100%;}
+#banner_ID .bannerBtn_UL{position:absolute; bottom:0px;width:100%;text-align:center; }
+#banner_ID .bannerBtn_UL li{display:inline;cursor:pointer;margin:0 3px}
+#banner_ID .DB_dirBtn{position:absolute;width:1060px; height:0; top:140px; left:50%; margin-left:-530px;}
+#banner_ID .DB_dirBtn .DB_prev{position:absolute;left:0px;cursor:pointer;}
+#banner_ID .DB_dirBtn .DB_next{position:absolute;right:0px;cursor:pointer;}
+	/*	精密体检	  */
+.examination_DIV{ margin-top:80px; }
+.examination_DIV dl dt img{ width:275px; height:196px; }
+.examination_DIV dl dd{ width:618px; }
+.examination_DIV dl dd p:NTH-OF-TYPE(1){height:32px; margin-bottom:22px; }
+.examination_DIV dl dd p span{ display:inline-block; line-height:32px; }
+.examination_DIV dl dd p span:NTH-OF-TYPE(1){ font-size:32px; color:#1ab4c3; margin-right:12px;  }
+.examination_DIV dl dd p span:NTH-OF-TYPE(2){ font-size:16px; color:#c3c3c3; text-transform:uppercase; vertical-align:-3px; }
+.examination_DIV dl dd p:NTH-OF-TYPE(2){ font-size:14px; color:#999; line-height:30px; }
+.examination_DIV dl dd a{ width:90px; line-height:28px; color:#fff ; background-color:#1ab4c3; margin-top:16px; display:inline-block; }
+.examination_DIV dl dd a:HOVER{ background-color:#46bdc9; }
+.examination_DIV dl dd a i{ width:12px; height:12px; vertical-align:-1px; margin:0px 8px 0px 11px; background:url("../images/sprite/plus_sign.png"); display:inline-block; }
+	/*	海外医疗	  */
+.overseas_DIV{ margin-top:82px; }
+.overseas_DIV>h1{ color:#1ab4c3; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; }
+.overseas_DIV>h3{ color:#c3c3c3; font-size:16px; line-height:16px; text-align:center; margin-bottom:60px; text-transform:uppercase; }
+.overseas_DIV div{ margin:0 auto; }
+.overseas_DIV dl{ width:216px; margin:0px 58px; }
+.overseas_DIV dt{ text-align:center; }
+.overseas_DIV dt a{ width:168px; height:168px; display:inline-block; border-radius:50%; }
+.overseas_DIV div dl:NTH-OF-TYPE(1) dt a{ background:url("../images/index/overseas_1.png") no-repeat center; }
+.overseas_DIV div dl:NTH-OF-TYPE(1) dt a:HOVER{ background:url("../images/index/overseas_1_hover.png") no-repeat center; }
+.overseas_DIV div dl:NTH-OF-TYPE(2) dt a{ background:url("../images/index/overseas_2.png") no-repeat center; }
+.overseas_DIV div dl:NTH-OF-TYPE(2) dt a:HOVER{ background:url("../images/index/overseas_2_hover.png") no-repeat center; }
+.overseas_DIV div dl:NTH-OF-TYPE(3) dt a{ background:url("../images/index/overseas_3.png") no-repeat center; }
+.overseas_DIV div dl:NTH-OF-TYPE(3) dt a:HOVER{ background:url("../images/index/overseas_3_hover.png") no-repeat center; }
+.overseas_DIV dd{ text-align:center; }
+.overseas_DIV dd a{ display:inline-block; }
+.overseas_DIV dd a:NTH-OF-TYPE(1){ color:#2e2e2e; font-size:18px; line-height:18px; margin:22px 0px 14px 0px; }
+.overseas_DIV dd a:NTH-OF-TYPE(1):HOVER{ color:#2e2e2e; }
+.overseas_DIV dd a:NTH-OF-TYPE(2){ color:#666; font-size:12px; line-height:24px; text-align:left; }
+.overseas_DIV dd a:NTH-OF-TYPE(2):HOVER{ color:#666; text-decoration:underline; }
+	/*	管家服务	  */
+.butler_DIV{ margin-top:82px; }
+.butler_DIV>h1{ color:#1ab4c3; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; }
+.butler_DIV>h3{ color:#c3c3c3; font-size:16px; line-height:16px; text-align:center; margin-bottom:60px; text-transform:uppercase; }
+.butler_DIV>div{ width:1000px; height:400px; font-size:0px; position:relative; }
+.butler_DIV>div a{ width:335px; height:190px; display:inline-block; position:absolute; z-index:1;}
+.butler_DIV>div a:hover{ z-index:10; transform:scale(1.05); }
+.butler_DIV>div a:NTH-OF-TYPE(1){ background:url("../images/index/butler1.png") no-repeat center; width:330px; height:380px;}
+.butler_DIV>div a:NTH-OF-TYPE(2){ background:url("../images/index/butler2.png") no-repeat center; left:330px; }
+.butler_DIV>div a:NTH-OF-TYPE(3){ background:url("../images/index/butler3.png") no-repeat center; left:665px;}
+.butler_DIV>div a:NTH-OF-TYPE(4){ background:url("../images/index/butler4.png") no-repeat center; top:190px; left:330px; }
+.butler_DIV>div a:NTH-OF-TYPE(5){ background:url("../images/index/butler5.png") no-repeat center; top:190px; left:665px;}
+	/*	会员健康数据库	  */
+.database_DIV{ margin-top:60px; }
+.database_DIV dl dd{ width:520px; margin-left:80px; margin-right:70px; }
+.database_DIV dl dd p{ height:32px; margin-top:86px; margin-bottom:22px; }
+.database_DIV dl dd p span{ display:inline-block; line-height:32px; }
+.database_DIV dl dd p span:NTH-OF-TYPE(1){ font-size:32px; color:#1ab4c3; margin-right:10px;  }
+.database_DIV dl dd p span:NTH-OF-TYPE(2){ font-size:16px; color:#c3c3c3; text-transform:uppercase; vertical-align:-3px; }
+.database_DIV dl dd a{ font-size:14px; color:#999; line-height:30px; display:inline-block; }
+.database_DIV dl dd a:HOVER{ text-decoration:underline; }
+.database_DIV dl dt img{ width:327px; height:460px; }
+	
+	/*	蒙版	  */
+.reservationExperts_DIV{ visibility:hidden; width:100%; height:951px; position:absolute; top:0px; left:0px; background-color:gray; opacity:0.80; filter:alpha(opacity=80); -moz-opacity:0.80; z-index:50;}	
+	/*	预约窗口  */
+.reservationExperts_form_DIV{ visibility:hidden; width:500px; height:536px; background-color:#fff; position:absolute; top:221px; left:50%; margin:0 0 0 -250px; z-index:99; }
+.reservationExperts_form_DIV a{ width:16px; height:16px; margin:20px 20px 0px 0px; background:url("../images/sprite/xx.png") no-repeat center; }
+.reservationExperts_form_DIV h1{ font-size:22px; line-height:22px; color:#1ab4c3; padding-top:2px; margin:0px 0px 20px 62px; }
+.reservationExperts_form_DIV form{ margin-left:61px; font-size:12px; }
+.reservationExperts_form_DIV form input{ width:355px; height:43px; color:#333; border:1px solid #dadada; padding:0 11px; margin-bottom:13px; border-radius:4px;  }
+.reservationExperts_form_DIV form div{ width:379px; position:relative; }
+.reservationExperts_form_DIV form div input{ width:329px; padding-right:37px; }
+.reservationExperts_form_DIV form div i{ width:0px; height:0px; position:absolute; top:20px; right:16px; border-left:4px solid transparent; border-right:4px solid transparent; border-top:4px solid #333; }
+.reservationExperts_form_DIV form textarea{ width:355px; font-size:12px; border:1px solid #dadada; padding:14px 11px; margin-bottom:12px; overflow:auto; }
+.reservationExperts_form_DIV form .submit_INPUT{ width:379px; height:43px; color:#fff; background-color:#1ab4c3; cursor:pointer; }
+.reservationExperts_form_DIV form .submit_INPUT:hover{ background-color:#e9a400; }
+
+

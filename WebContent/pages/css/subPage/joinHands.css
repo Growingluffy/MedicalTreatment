@@ -1,0 +1,44 @@
+@IMPORT url("../common.css");
+
+
+/*	banner  */
+.banner_DIV{ height:330px; }
+.banner_DIV a{ width:100%; height:330px; background:url("../../images/joinHands/banner.png") no-repeat center; display:inline-block; }
+
+/*	合作单位 海外医院 	 */
+.unit_DIV{ margin:80px 0 60px 0; }
+.unit_DIV>h1{ color:#1ab4c3; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; }
+.unit_DIV>h3{ color:#c3c3c3; font-size:16px; line-height:16px; text-align:center; margin-bottom:10px; text-transform:uppercase; }
+.unit_DIV>div dl{ width:176px; margin:40px 30px 0 0; }
+.unit_DIV>div dl:NTH-OF-TYPE(5n){ margin-right:0px; }
+.unit_DIV>div dl dt{ margin-bottom:15px; }
+.unit_DIV>div dl dt a{ width:176px; height:90px; color:#fff; background-color:#1ab4c3; }
+.unit_DIV>div dl dt a:HOVER{ color:#fff; }
+.unit_DIV>div dl dt a img{ max-width:176px; max-height:90px; }
+.unit_DIV>div dl dd{ text-align:center; }
+.unit_DIV>div dl dd a{ font-size:14px; line-height:14px; color:#2e2e2e; }
+.unit_DIV>div dl dd a:HOVER { color:#1ab4c3; }
+/*	合作加盟	  */
+.toJoin_DIV{ margin:140px 0 60px 0; }
+.toJoin_DIV>div{ text-align:center; }
+.toJoin_DIV>div>h1{ color:#1ab4c3; font-size:32px; line-height:32px; margin-bottom:10px; }
+.toJoin_DIV>div>h3{ color:#c3c3c3; font-size:16px; line-height:16px; margin-bottom:20px; text-transform:uppercase; }
+.toJoin_DIV>div p:NTH-OF-TYPE(1){ width:540px; height:60px; font-size:20px; line-height:36px; color:#1ab4c3; display:inline-block; }
+.toJoin_DIV>div p:NTH-OF-TYPE(2){ margin:35px 0 20px 0; }
+.toJoin_DIV>div p:NTH-OF-TYPE(2) i{ width:168px; height:168px; border-radius:50%; }
+.toJoin_DIV>div p:NTH-OF-TYPE(2) i img{ max-width:168px; max-height:168px; }
+.toJoin_DIV>div h2{ font-size:20px; line-height:20px; color:#2e2e2e; }
+.toJoin_DIV>div span{ margin:18px 0; font-size:14px; line-height:14px; color:#666; display:block; }
+/*	联系方式	  */
+.link_DIV{ text-align:center; margin:190px 0 116px 0;}
+.link_DIV>div{ margin-bottom:60px; }
+.link_DIV>div dl{ width:150px; max-width:150px; margin-right:137px; }
+.link_DIV>div dl:NTH-OF-TYPE(1){ margin-left:138px; }
+.link_DIV>div dl dt{ width:150px; text-align:center; margin-bottom:30px;}
+.link_DIV>div dl dt i{ width:110px; height:110px; overflow:hidden; }
+.link_DIV>div dl dt i img{ max-width:110px; max-height:110px; }
+.link_DIV>div dl dd h4{ color:#666; font-size:14px; line-height:14px; margin-bottom:8px; }
+.link_DIV>div dl dd h5{ color:#666; font-size:14px; line-height:14px; }
+.link_DIV>p{ font-size:16px; line-height:16px; color:#1ab4c3; }
+
+

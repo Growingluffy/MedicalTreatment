@@ -1,0 +1,72 @@
+@IMPORT url("../common.css");
+
+
+/*	banner  */
+.banner_DIV{ height:330px; }
+.banner_DIV a{ width:100%; height:330px; background:url("../../images/fromJapan/banner.png") no-repeat center; display:inline-block; }
+
+/*	日本医疗	*/
+.europeMedical_DIV{ margin-top:80px; }
+.europeMedical_DIV>h1{ color:#1ab4c3; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; }
+.europeMedical_DIV>h3{ color:#c3c3c3; font-size:16px; line-height:16px; text-align:center; margin-bottom:20px; text-transform:uppercase; }
+.europeMedical_DIV>div dl{ width:194px; margin-right:74px; margin-bottom:53px; }
+.europeMedical_DIV>div dl:NTH-OF-TYPE(4){ margin-right:0px; }
+.europeMedical_DIV>div dt{ margin-bottom:20px; text-align:center; }
+.europeMedical_DIV>div dt a{ width:168px; height:168px; color:#2e2e2e; border-radius:50%; display:inline-block; }
+.europeMedical_DIV>div dl:NTH-OF-TYPE(1) dt a{ background:url("../../images/fromEurope/medial1.png") no-repeat center; }
+.europeMedical_DIV>div dl:NTH-OF-TYPE(2) dt a{ background:url("../../images/fromEurope/medial2.png") no-repeat center; }
+.europeMedical_DIV>div dl:NTH-OF-TYPE(3) dt a{ background:url("../../images/fromEurope/medial3.png") no-repeat center; }
+.europeMedical_DIV>div dl:NTH-OF-TYPE(4) dt a{ background:url("../../images/fromEurope/medial4.png") no-repeat center; }
+.europeMedical_DIV>div dl dd{ text-align:center; }
+.europeMedical_DIV>div dl dd a{ text-align:center; display:inline-block; }
+.europeMedical_DIV>div dl dd a:HOVER{ color:#1ab4c3; }
+/*	介绍	  */
+.intorduce_DIV{ height:405px; background:url("../../images/fromEurope/introduce.png") no-repeat center; position:relative; }
+.intorduce_DIV div{ width:457px; position:absolute; top:131px; left:513px; }
+.intorduce_DIV div p{ font-size:32px; color:#1ab4c3; line-height:32px; margin-bottom:20px; }
+.intorduce_DIV div a{ font-size:14px; color:#999; line-height:30px; display:inline-block; }
+.intorduce_DIV div a:HOVER{ text-decoration:underline; }
+/*	就诊环境 */
+.hotel_DIV{ margin-top:80px; }
+.hotel_DIV>h1{ color:#1ab4c3; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; }
+.hotel_DIV>h3{ color:#c3c3c3; font-size:16px; line-height:16px; text-align:center; margin-bottom:60px; text-transform:uppercase; }
+.hotel_DIV>ul{ height:400px; font-size:0px; position:relative; }
+.hotel_DIV>ul li{ width:335px; height:190px; display:inline-block; position:absolute; z-index:1;}
+.hotel_DIV>ul li:hover{ z-index:10; transform:scale(1.05); }
+.hotel_DIV>ul li a{ display:table-cell; text-align:center; vertical-align:middle; }
+.hotel_DIV>ul li a img{ max-width:335px; max-height:190px; }
+.hotel_DIV>ul li:NTH-OF-TYPE(1){ width:330px; height:380px;}
+.hotel_DIV>ul li:NTH-OF-TYPE(1) a img{  max-width:330px; max-height:380px;}
+.hotel_DIV>ul li:NTH-OF-TYPE(2){  left:330px; }
+.hotel_DIV>ul li:NTH-OF-TYPE(3){  left:665px;}
+.hotel_DIV>ul li:NTH-OF-TYPE(4){  top:190px; left:330px; }
+.hotel_DIV>ul li:NTH-OF-TYPE(5){  top:190px; left:665px;}
+/*	合作医院  */
+.hospital_DIV{ margin-top:160px; font-size:0px; }
+.hospital_DIV>h1{ color:#1ab4c3; font-size:32px; line-height:32px; text-align:center; margin-bottom:10px; }
+.hospital_DIV>h3{ color:#c3c3c3; font-size:16px; line-height:16px; text-align:center; margin-bottom:60px; text-transform:uppercase; }
+.hospital_DIV>div dl{ margin-bottom:81px; }
+.hospital_DIV>div dl dt{ margin-right:31px; }
+.hospital_DIV>div dl dt a{ width:280px; height:170px; }
+.hospital_DIV>div dl dt a img{ max-width:280px; max-height:170px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1){ width:396px; max-height:170px; margin-right:116px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) a{ font-size:16px; line-height:16px; color:#2e2e2e; margin-bottom:14px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) a:HOVER{ color:#1ab4c3; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) p:NTH-OF-TYPE(1){ height:65px; font-size:12px; color:#666; margin-bottom:29px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) p:NTH-OF-TYPE(2){ height:50px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) p:NTH-OF-TYPE(2) i{ width:50px; height:50px; border-radius:50%; margin-right:36px; display:inline-block; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(1) p:NTH-OF-TYPE(2) span{ font-size:14px; color:#2e2e2e; vertical-align:20px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2){ text-align:center; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2) p:NTH-OF-TYPE(1){ font-size:16px; line-height:16px; color:#1ab4c3; margin-top:31px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2) p:NTH-OF-TYPE(2){ font-size:14px; line-height:14px; color:#1ab4c3; margin-top:12px; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2) a{ width:114px; height:32px; font-size:14px; line-height:32px; margin-top:18px; background-color:#1ab4c3; color:#fff; border-radius:2px; display:inline-block; }
+.hospital_DIV>div dl dd:NTH-OF-TYPE(2) a:HOVER { background-color:#46bdc9; }
+/*	bottomBanner  */
+.bottomBanner_DIV{ height:330px; }
+.bottomBanner_DIV a{ width:100%; height:330px; background:url("../../images/fromEurope/banner_bottom.png") no-repeat center; display:inline-block; }
+
+
+
+
+
+

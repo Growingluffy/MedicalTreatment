@@ -1,0 +1,34 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header div, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; }
+body{ font-family:"Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:24px; background:#fff;  color:#333; }
+table{ border-collapse:collapse; border-spacing:0; }
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; background: #fff; border: 0; }
+img{ border:none; vertical-align:middle; }
+ul,li{ list-style:none; }
+a{ text-decoration:none; color:#333; outline:none; }
+a:hover{ color:#e34829; }
+input:focus,textarea:focus{ outline:none; }
+h1,h2,h3,h4,h5{ font-weight:normal; }
+i,em{ font-style:normal; }
+
+.fl{ float:left; }
+.fr{ float:right; }
+.of{ overflow:hidden; }
+.clBoth{ clear:both; }
+.centerDIV{ width:1000px; margin:0 auto; }
+
+/*  底部	  */
+footer{ width:100%; min-width:1000px; font-size:0px; line-height:0px; background-color:#1ab4c3; }
+footer>div{ padding-top:54px; padding-bottom:68px; }
+footer>div div{ margin-left:2px; }
+footer>div div p{ height:12px; margin-bottom:12px; }
+footer>div div p a{ line-height:12px; color:#fff; font-size:12px; display:inline-block; vertical-align:1px; }
+footer>div div p a:HOVER{ color:#fff; text-decoration:underline; }
+footer>div div p i{ width:1px; height:12px; background-color:#fff; display:inline-block; margin:0px 14px; }
+footer>div dl{ margin-right:17px; }
+footer>div dl dt{ margin-right:6px; }
+footer>div dl dt i{ width:34px; height:34px; background:url("../../images/sprite/phone.png") no-repeat center; display:inline-block; }
+footer>div dl dd p:NTH-OF-TYPE(1){ font:italic 12px/12px "Microsoft YaHei"; color:#fff; }
+footer>div dl dd p:NTH-OF-TYPE(2){ font:italic 20px/20px "Microsoft YaHei"; color:#fff; margin-top:6px; }
+
+
+
